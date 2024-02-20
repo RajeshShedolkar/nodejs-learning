@@ -1,0 +1,15 @@
+REST API:
+JSON Rest API
+User - GET
+ - /Users : list all users
+ - /Users/1
+ - /Users/2: Get the user with id
+
+ /api/User - POST
+  - create new user
+
+ User - PATCH
+ /User/1 ==> update user with id 1
+
+ User - Delete
+ /User/delete
