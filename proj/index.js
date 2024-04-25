@@ -27,6 +27,16 @@ const myHandler = (req, res)=>{
 
 const app = express()
 
+app.use((req, res, next) => {
+    console.log("I am in middleware 1")
+    next()
+})
+
+app.use((req, res, next)=>{
+    console.log("I am in middleware 2");
+    next()
+})
+
 app.get("/", (req, res)=>{
     res.end("Home Page by express.js")
 });
