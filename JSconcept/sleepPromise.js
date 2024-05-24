@@ -6,6 +6,14 @@ for a given number of milliseconds.
  */
 
 function sleep(milliseconds) {
+   return new Promise(function(cb){
+    setTimeout(cb, milliseconds)
+   })
 }
+
+function customCallbackFn(){
+    console.log("Inside custom function")
+}
+sleep(1000).then(customCallbackFn)
 
 module.exports = sleep;
