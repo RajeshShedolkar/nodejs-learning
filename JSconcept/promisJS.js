@@ -5,15 +5,21 @@
  */
 
 function wait1(t) {
-
+    return new Promise(function(cb){
+        setTimeout(cb, t)
+    })
 }
 
 function wait2(t) {
-
+    return new Promise(function(cb){
+        setTimeout(cb, t)
+    })
 }
 
 function wait3(t) {
-
+    return new Promise(function(cb){
+        setTimeout(cb, t)
+    })
 }
 
 function calculateTime(t1, t2, t3) {
