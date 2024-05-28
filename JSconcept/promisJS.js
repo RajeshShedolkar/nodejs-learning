@@ -23,9 +23,6 @@ function wait3(t) {
 }
 
 function calculateTime(t1, t2, t3) {
-    wait1(t1)
-    wait1(t2)
-    wait1(t3)
 }
 
 module.exports = calculateTime;
