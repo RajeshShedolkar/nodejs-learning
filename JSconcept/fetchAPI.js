@@ -16,7 +16,6 @@ function handleData(error, data) {
     console.error('Error:', error);
   } else {
     console.log('Data:', data);
-    // Process the data here
   }
 }
 
