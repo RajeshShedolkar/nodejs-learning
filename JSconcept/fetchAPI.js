@@ -19,5 +19,4 @@ function handleData(error, data) {
   }
 }
 
-// Fetch data and handle it with the callback
 fetchData(handleData);
