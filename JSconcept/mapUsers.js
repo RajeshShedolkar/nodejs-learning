@@ -21,6 +21,5 @@ fs.readFile('users.json', 'utf8', (err, data) => {
   // Get the transformed users
   const transformedUsers = addFullName(users);
 
-  // Print the transformed users
   console.log('Transformed Users:', transformedUsers);
 });
