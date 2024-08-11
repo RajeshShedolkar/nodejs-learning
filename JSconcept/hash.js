@@ -5,7 +5,7 @@ console.log(hash);
 var i = 1;
 var flag = true;
 while (flag){
-    var hash1 = crypto.createHash('sha256').update(i.toString()).digest("hex")
+    var hash1 = crypto.createHash('sha256').update("100xdevs"+i.toString()).digest("hex")
     if (hash1.startsWith("00000")){
         console.log(hash1 , i)
         flag = false
