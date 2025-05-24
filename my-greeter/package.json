@@ -1,0 +1,20 @@
+{
+  "name": "@rajesh.shedolkar/my-greeter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "greet",
+    "hello",
+    "npm-package"
+  ],
+  "author": "rajeshshedolkar12@gmail.com",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rajesh.shedolkar/my-greeter": "^1.0.0",
+    "@svgedit/svgcanvas": "^7.2.6"
+  }
+}
